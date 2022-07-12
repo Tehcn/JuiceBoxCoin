@@ -1,0 +1,3 @@
+# JuiceBox Coin
+
+JuiceBox Coin originated a family ledger of how many 'juice boxes' each person owed to another. However, some people started to mess with it, so I'm building an entire cryptocurrency and blockchain so we don't have to worry anymore...

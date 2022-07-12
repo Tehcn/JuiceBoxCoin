@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const elliptic_1 = require("elliptic");
+const log4js_1 = require("@tehcn/log4js");
+const ec = new elliptic_1.ec('secp256k1');
+const logger = new log4js_1.Logger('Key Generator');
+const key = ec.genKeyPair();
+const publicKey = key.getPublic('hex');
+const privateKey = key.getPrivate('hex');
+logger.log(`\n\tPrivate key: ${privateKey}\n\tPublic key: ${publicKey}`);
